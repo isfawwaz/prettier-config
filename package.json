@@ -1,20 +1,26 @@
 {
-  "name": "prettier-config",
-  "version": "1.0.0",
+  "name": "@isfawwaz/prettier-config",
+  "version": "1.0.1",
   "description": "Shared prettier config for my projects",
-  "repository": "isfawwaz/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isfawwaz/prettier-config.git"
+  },
   "main": "index.json",
   "files": [
     "index.json"
   ],
-  "author": {
-    "name": "isfawwaz",
-    "email": "isfawwaz@gmail.com",
-    "url": "https://github.com/isfawwaz"
-  },
+  "author": "isfawwaz <isfawwaz@gmail.com> (https://github.com/isfawwaz)",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^2.7.1"
   },
-  "prettier": "./index.json"
+  "prettier": "./index.json",
+  "bugs": {
+    "url": "https://github.com/isfawwaz/prettier-config/issues"
+  },
+  "homepage": "https://github.com/isfawwaz/prettier-config#readme",
+  "scripts": {
+    "test": "true"
+  }
 }
