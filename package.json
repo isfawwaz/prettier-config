@@ -1,0 +1,20 @@
+{
+  "name": "prettier-config",
+  "version": "1.0.0",
+  "description": "Shared prettier config for my projects",
+  "repository": "isfawwaz/prettier-config",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "author": {
+    "name": "isfawwaz",
+    "email": "isfawwaz@gmail.com",
+    "url": "https://github.com/isfawwaz"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "prettier": "./index.json"
+}
